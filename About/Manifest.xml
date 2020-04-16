@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+    <identifier>CombatExtendedAmmoStackLimit</identifier>
+    <version>0.1</version>
+    <dependencies>
+		<li>CombatExtended</li>
+    </dependencies>
+    <incompatibleWith>
+    </incompatibleWith>
+    <loadBefore>
+    </loadBefore>
+    <loadAfter>
+		<li>CombatExtended</li>
+    </loadAfter>
+    <suggests>
+
+    </suggests>
+
+</Manifest>

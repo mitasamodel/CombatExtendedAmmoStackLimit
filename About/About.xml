@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Combat Extended Ammo Stack Limit</name>
+	<author>mitasamodel</author>
+	<supportedVersions>
+		<li>1.1</li>
+	</supportedVersions>
+	<packageId>mitasamodel.CombatExtendedAmmoStackLimit</packageId>
+	<description>Set the stack size of the ammo to 500</description>
+	<modDependencies>
+		<li>
+			<packageId>CETeam.CombatExtended</packageId>
+			<displayName>Combat Extended</displayName>
+			<downloadUrl>https://github.com/CombatExtendedRWMod/CombatExtended/</downloadUrl>
+			<steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1631756268</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<incompatibleWith>
+	
+	</incompatibleWith>	  
+	<loadAfter>
+		<li>CETeam.CombatExtended</li>
+	</loadAfter>
+</ModMetaData>
