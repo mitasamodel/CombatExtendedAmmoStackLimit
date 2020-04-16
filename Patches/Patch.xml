@@ -2,39 +2,39 @@
 <Patch>
 	<Operation Class="PatchOperationSequence">
 		<operations>
-            <li Class="PatchOperationReplace">
-                <xpath>Defs/ThingDef[@Name="AmmoBase"]/stackLimit</xpath>
-                <value>
-                    <stackLimit>500</stackLimit>
-                </value>
-            </li>
+			<li Class="PatchOperationReplace">
+				<xpath>Defs/ThingDef[@Name="AmmoBase"]/stackLimit</xpath>
+				<value>
+					<stackLimit>500</stackLimit>
+				</value>
+			</li>
 
-            <li Class="PatchOperationRemove">
-                <xpath>Defs/ThingDef[
-                    @Name="30x64mmFuelBase" or
-                    @Name="6x18mmChargedBase" or
-                    @Name="6x24mmChargedBase" or
-                    @Name="8x35mmChargedBase" or
-                    @Name="25x40mmGrenadeBase" or
-                    @Name="25x59mmGrenadeBase" or
-                    @Name="30x29mmGrenadeBase" or
-                    @Name="35x32mmSRGrenadeBase" or
-                    @Name="Ammo127x108mmBase" or
-                    @Name="Ammo145x114mmBase" or
-                    @Name="Ammo152x169mmBase" or
-                    @Name="Ammo20x102mmNATOBase" or
-                    @Name="Ammo20x110mmHispanoBase" or
-                    @Name="Ammo20x128mmOerlikonBase" or
-                    @Name="Ammo20x82mmMauserBase" or
-                    @Name="Ammo20x99mmRShVAKBase" or
-                    @Name="Ammo50BMGBase" or
-                    @Name="127x55mmARBase" or
-                    @Name="20mmFliegerfaustBase" or
-                    @Name="12GaugeBase" or
-                    @Name="23x75mmRBase" or
-                    @Name="410BoreBase"
-                    ]/stackLimit</xpath>
-            </li>
+			<li Class="PatchOperationRemove">
+				<xpath>Defs/ThingDef[
+					@Name="30x64mmFuelBase" or
+					@Name="6x18mmChargedBase" or
+					@Name="6x24mmChargedBase" or
+					@Name="8x35mmChargedBase" or
+					@Name="25x40mmGrenadeBase" or
+					@Name="25x59mmGrenadeBase" or
+					@Name="30x29mmGrenadeBase" or
+					@Name="35x32mmSRGrenadeBase" or
+					@Name="Ammo127x108mmBase" or
+					@Name="Ammo145x114mmBase" or
+					@Name="Ammo152x169mmBase" or
+					@Name="Ammo20x102mmNATOBase" or
+					@Name="Ammo20x110mmHispanoBase" or
+					@Name="Ammo20x128mmOerlikonBase" or
+					@Name="Ammo20x82mmMauserBase" or
+					@Name="Ammo20x99mmRShVAKBase" or
+					@Name="Ammo50BMGBase" or
+					@Name="127x55mmARBase" or
+					@Name="20mmFliegerfaustBase" or
+					@Name="12GaugeBase" or
+					@Name="23x75mmRBase" or
+					@Name="410BoreBase"
+					]/stackLimit</xpath>
+			</li>
 		</operations>
 	</Operation>
 </Patch>
